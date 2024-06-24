@@ -1,1 +1,1 @@
-This is the repository for the code related to my MSc thesis "A machine learning model for the estimation of hourly non-tidal water levels in the Dutch coastal zone".
+This is the repository for the code related to my MSc thesis "A machine learning model for the estimation of hourly non-tidal water levels in the Dutch coastal zone". The report can be found at http://resolver.tudelft.nl/uuid:9f4926c7-6620-4394-8968-3c87ca27f227.
