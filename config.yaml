@@ -1,0 +1,43 @@
+era5:
+    root: C:\Users\schijven\Documents\Data
+    filename: ERA5_full.npy
+    filename_t: t_full.npy
+
+
+altimetry:
+    root: C:\Users\schijven\Documents\Data
+    filename: Altimetry_full.npy
+
+
+tidegauge:
+    root: C:\Users\schijven\Documents\Data
+    filenames:
+      -  euro_platform-eurpfm-nld-rwsHatyan.csv
+      -  scheveningen-schevngn-nld-rwsHatyan.csv
+      -  vlissingen-vlissgn-nld-rwsHatyan.csv
+      
+variables:      
+    start: 01-07-2001
+    start_hour: 0
+    end: 07-09-2018
+    end_hour: 23
+    timewindow: 48
+    loc: Scheveningen
+      # Choose one of the following
+      # -  Europlatform (0)
+      # -  Scheveningen (1)
+      # -  Vlissingen (2)
+    param_era5: 3
+    param_alt: 8
+    size_era5: 1498
+    sequence_stride: 1
+    sampling_rate: 1
+    batch_size: 1
+    train_ratio: 0.8
+    train_ratio2: 0.75
+    fill_nan: 0.0
+    compute_altimetry_availability: False
+    show_altimetry_availability: False
+    save_altimetry_availability: False
+    filename_altimetry_availability: Altimetry_availability_full.csv
+    kfold: False
